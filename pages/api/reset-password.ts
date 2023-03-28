@@ -91,7 +91,7 @@ export default async function handle(
     await transporter.sendMail({
       from: process.env.EMAIL,
       to: user.email,
-      subject: 'Password reset successufly',
+      subject: 'Password reset successfuly',
       html: 'Password is successfuly reset',
     });
 
